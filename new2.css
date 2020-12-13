@@ -1,0 +1,45 @@
+@media only screen and (min-device-width:1px){
+body{
+    background-color:white;
+    }
+    
+    ul {
+      list-style-type:none;
+      justify-content: flex-end;
+      margin:1px;
+      padding:4px;
+      overflow: hidden;
+      background-color:yellow;
+    }
+    
+    li {
+      float:right;
+    }
+    
+    li {
+      display: block;
+      background-color:whitesmoke;
+      margin: 10px;
+      color:blue;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    .parent {
+        height:800px;
+      background-image:url(https://uc.uxpin.com/files/91911/99228/photo-1431576901776-e539bd916ba2__1_-f8004f.jpg);
+      background-position: center;
+        display:flex;
+        align-items: center;
+        
+      }
+      
+      .child {
+        width: 500px;
+        height: 200px;
+        background: green;
+        position: relative;
+        left:50px;
+        padding: 20px;
+      }
+}
