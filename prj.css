@@ -1,0 +1,489 @@
+.body {
+  position: relative;
+  width: 100%;
+}
+.navbar {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  height: 60px;
+  max-width: 1000px;
+}
+.navbar a {
+  color: #2b2b2b;
+  text-transform: uppercase;
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 20px 10px;
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo img {
+  vertical-align: middle;
+  border-style: none;
+  width: 100%;
+  max-width: 300px;
+  padding-top: 2px;
+}
+.background img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+}
+.goldcoin {
+  text-align: center;
+  padding: 10px 10px;
+  width: 100%;
+  max-width: 1000px;
+}
+.goldcoin p {
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-decoration: solid;
+}
+.insta h2 {
+  text-align: center;
+  text-size-adjust: large;
+  font-size: x-large;
+  font-weight: bold;
+  max-width: 1000px;
+}
+.journey {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  width: 100%;
+  max-width: 1000px;
+}
+.journey img {
+  width: 100%;
+  height: 700px;
+}
+.journey h2 {
+  text-align: left;
+  color: blue;
+  padding-left: 60px;
+}
+.journey p {
+  text-align: left;
+  font-size: 20px;
+  padding-left: 60px;
+  padding-right: 50px;
+}
+.sideimg {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  width: 100%;
+  max-width: 1000px;
+}
+.sideimg a {
+  align-items: center;
+  padding-top: 500px;
+}
+.sideimg h2 {
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 20px;
+  color: blue;
+}
+.sideimg p {
+  font-size: 20px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 50px;
+}
+.sideimg img {
+  width: 100%;
+  height: 500px;
+}
+.backgroundimage2 {
+  background-image: url(background1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  max-width: 1000px;
+  text-align: left;
+  color: cornsilk;
+  padding-top: 80px;
+  font-size: 15px;
+  text-emphasis-position: center;
+}
+
+.wecut {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.wecut img {
+  width: 100%;
+  height: 500px;
+}
+.wecut a {
+  align-items: center;
+}
+.wecut h2 {
+  text-align: left;
+  font-size: 30px;
+  color: blue;
+  padding-left: 50px;
+  padding-top: 80px;
+}
+.wecut p {
+  text-align: left;
+  font-size: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.sideimg4 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+  width: 100%;
+  max-width: 1000px;
+}
+.sideimg4 img {
+  width: 100%;
+  height: 500px;
+}
+.sideimg4 h2 {
+  text-align: left;
+  padding-left: 40px;
+  padding-top: 70px;
+  color: blue;
+}
+.sideimg4 p {
+  text-align: left;
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+.background3 {
+  background-image: url(background2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  widows: 100%;
+  height: 700px;
+  max-width: 1000px;
+  font-size: 15px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: azure;
+  text-align: left;
+  padding-top: 50px;
+}
+.background3 p {
+  text-align: right;
+  padding-right: 70px;
+}
+.innovation {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  width: 100%;
+  max-width: 1000px;
+}
+.innovation h2 {
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 100px;
+
+  color: blue;
+}
+.innovation p {
+  text-align: left;
+  font-size: 15px;
+  padding-right: 50px;
+  padding-left: 20px;
+}
+.innovation img {
+  width: 100%;
+  height: 500px;
+}
+.sideimage5 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  width: 100%;
+  max-width: 1000px;
+}
+.sideimage5 img {
+  width: 100%;
+  height: 500px;
+}
+.sideimage5 h2 {
+  text-align: left;
+  padding-left: 40px;
+  padding-top: 80px;
+
+  color: blue;
+}
+.sideimage5 p {
+  text-align: left;
+  font-size: 20px;
+  padding-left: 40px;
+  padding-right: 80px;
+}
+.Cocktails {
+  position: relative;
+  padding-top: 20px;
+  width: 100%;
+  max-width: 1000px;
+}
+.Cocktails h1 {
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+  color: blue;
+}
+.Cocktails h2 {
+  text-align: center;
+  font-size: 30px;
+  font-style: oblique;
+  color: blue;
+}
+.Cocktails p {
+  text-align: center;
+  font-size: 20px;
+}
+.impt {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  width: 100%;
+  max-width: 1000px;
+}
+.impt img {
+  width: 100%;
+  height: 500px;
+}
+.container {
+  position: relative;
+  font-family: Arial;
+  width: 100%;
+}
+
+.text {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+}
+.m {
+  text-align: center;
+  padding-top: 50px;
+  width: 100%;
+  max-width: 1000px;
+}
+.m h1 {
+  text-align: center;
+  font-size: 50px;
+  color: blue;
+  font-family: "Times New Roman", Times, serif;
+}
+.m p {
+  font-size: 20px;
+  font-style: italic;
+}
+.a {
+  text-align: center;
+  width: 100%;
+  padding-top: 30px;
+  max-width: 1000px;
+}
+.a h1 {
+  text-align: center;
+  color: ;
+  font-size: ;
+}
+.a p {
+  text-align: center;
+  font-size: ;
+}
+.logoss {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  width: 100%;
+  align-items: center;
+  max-width: 900px;
+
+}
+.logoss img {
+  width: 100%;
+  height: 100%;
+}
+.logo1 img {
+  width: 100%;
+  padding-top: 20px;
+  height: 100px;
+}
+.logo2 img {
+  width: 100%;
+  padding-top: 50px;
+  max-width: 300px;
+  height: 100px;
+  padding-left: 50px;
+}
+.logo1 h1 {
+  font-size: 15px;
+}
+.logo3 img {
+  width: 100%;
+  max-width: 100px;
+  padding-top: 90px;
+  padding-right: 90px;
+  height: 100px;
+  padding-left: 100px;
+}
+.logo1 p {
+  font-size: 15px;
+}
+.logo2 h1 {
+  font-size: 15px;
+  text-align:center;
+  padding-left: 40px;
+}
+.logo2 p {
+  font-size: 15px;
+  padding-left: 50px;
+}
+.logo3 h1 {
+  font-size: 15px;
+  text-align: left;
+  padding-left: 100px;
+}
+.logo3 p {
+  text-align: left;
+  font-size: 15px;
+  padding-left: 100px;
+}
+.backgroundimage5 {
+  background-image: url("https://curator.io/wp-content/uploads/exports/surf.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  max-width: 1000px;
+}
+.sideimg6 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  width: 100%;
+  max-width: 1000px;
+}
+.sideimg6 img {
+  width: 100%;
+  height: 400px;
+}
+.sideimg6 a {
+  width: 100%;
+  height: 100%;
+}
+.sideimg6 label {
+  padding-right: 100px;
+}
+.sideimg6 h2 {
+  width: 100%;
+  font-size: 30px;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: lightblue;
+  padding-top: 100px;
+  margin-top: 50px;
+  max-width: 1000px;
+}
+.footer img {
+  width: 100%;
+  height: 50px;
+}
+.footer h1 {
+  width: 100%;
+  font-size: 20px;
+}
+.footer ul {
+  width: 100%;
+  float: left;
+}
+.footer p {
+  width: 100%;
+  padding-top: 80px;
+}
+.ig img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .body {
+    position: relative;
+  }
+  .background img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+  }
+  @media (max-width: 800px) {
+    .sideimage5 {
+      flex-direction: column;
+    }
+    @media (max-width: 800px) {
+      .journey {
+        flex-direction: column;
+      }
+      @media (max-width: 800px) {
+        .sideimg {
+          flex-direction: column;
+        }
+        @media (max-width: 800px) {
+          .wecut {
+            flex-direction: column;
+          }
+          @media (max-width: 800px) {
+            .sideimg4{
+              flex-direction: column;
+            }
+            @media (max-width: 800px) {
+              .innovation {
+                flex-direction: column;
+              }
+              @media (max-width: 800px) {
+                .impt {
+                  flex-direction: column;
+                }
+                 @media (max-width: 800px) {
+                  .logoss{
+                  flex-direction: column;
+                }
+                @media (max-width: 800px) {
+                  .sideimg6 {
+                    flex-direction: column;
+                  }
+                  @media screen and (max-width: 600px) {
+                    .navbar img{
+                      display: flex;
+                      flex-flow: column;
+                    }
+                    .navbar a {
+                      display:none;
+                      float: right;
+                    }
+                    
+                  }
+                  
+}
